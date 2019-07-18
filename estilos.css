@@ -46,24 +46,131 @@ html {height:100%;
 		}
 
 
-	
-
-/* - - - - 1024 x 768 IPAD landscape- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-@media only screen and (width: 1024px) and (height:768px) 
+/* - - - - android landscape - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+@media only screen and (width: 837px) and  (height: 540px) 
 	{
-	  html {height:768px;
-      		background-color: rgb(125,125,125);
+	  html {height:360px;
+      		background-color: rgb(255,0,0);
 	 		}
+
+
+	   .encabezado, #paisaje {border: 2px solid black;
+	  			   font-size: 2rem;
+	  			   text-align: center;
+					}	
+
+	   .navegador {/*width: 980px;*/
+	   			   margin-top:1px;
+				   border: 3px solid yellow;
+				   /*position: relative;*/
+				   /*margin:auto;*/
+				   }
+
+				.sub {width: 180px;
+					  margin:10px auto; 
+					  border: 1px solid green;
+					  font-size:2rem;
+					  color: gray;
+					  text-align: center;}
+
+	   .contacto {/*border: 2px solid blue;
+				 margin-top:10px;
+				 text-align: center;  LO INVISIVILIZAMOS EN LANDSCAPE PUES POR EL EACOMODO RESULTANTE; NO SE VE; Y PASAMO LA DIRECCIpON AL SPAN "PAISAJE"*/
+				 display: none;
+				}
+
+
 	}
 
 
 
-/* - - - - 768 x 1024 IPAD portrait - - - - - */
-@media only screen and (width: 768px) and  (height: 1024px) 
+
+
+
+					/* - - - - android portrait - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+					@media only screen and (width: 540px) and  (height: 837px) 
+						{
+						  html {height:360px;
+					      		background-color: rgb(255,0,0);
+						 		}
+
+
+						   .encabezado, #paisaje {border: 2px solid black;
+						  			   font-size: 2rem;
+						  			   text-align: center;
+										}	
+
+						   .navegador {/*width: 980px;*/
+						   			   margin-top:1px;
+									   border: 3px solid yellow;
+									   /*position: relative;*/
+									   /*margin:auto;*/
+									   }
+
+									.sub {width: 180px;
+										  margin:10px auto; 
+										  border: 1px solid green;
+										  font-size:2rem;
+										  color: gray;
+										  text-align: center;}
+
+						   .contacto {/*border: 2px solid blue;
+									 margin-top:10px;
+									 text-align: center;  LO INVISIVILIZAMOS EN LANDSCAPE PUES POR EL EACOMODO RESULTANTE; NO SE VE; Y PASAMO LA DIRECCIpON AL SPAN "PAISAJE"*/
+									 display: none;
+									}
+
+
+						}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* - - - - 667 x 375 IPHONE678 landscape - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+@media only screen and (width: 667px) and  (height: 375px) 
 	{
-	  html {height:1024px;
-      		background-color: rgb(125,125,125);
+	  html {height:360px;
+      		background-color: rgb(255,0,0);
 	 		}
+
+
+	   .encabezado, #paisaje {border: 2px solid black;
+	  			   font-size: 2rem;
+	  			   text-align: center;
+					}	
+
+	   .navegador {/*width: 980px;*/
+	   			   margin-top:1px;
+				   border: 3px solid yellow;
+				   /*position: relative;*/
+				   /*margin:auto;*/
+				   }
+
+				.sub {width: 180px;
+					  margin:10px auto; 
+					  border: 1px solid green;
+					  font-size:2rem;
+					  color: gray;
+					  text-align: center;}
+
+	   .contacto {/*border: 2px solid blue;
+				 margin-top:10px;
+				 text-align: center;  LO INVISIVILIZAMOS EN LANDSCAPE PUES POR EL EACOMODO RESULTANTE; NO SE VE; Y PASAMO LA DIRECCIpON AL SPAN "PAISAJE"*/
+				 display: none;
+				}
+
+
 	}
 
 
@@ -71,6 +178,44 @@ html {height:100%;
 
 
 
+					/* - - - - 375 x 667 IPHONE678 portrait - - - - - */
+					@media only screen and (width: 375px) and  (height: 667px) 
+						{
+						  html {height:667px;
+					      		background-color: rgb(255,0,0);
+						 		}
+
+							.encabezado {border: 2px solid black;
+						  			   font-size: 3rem;
+						  			   text-align: center;
+										}
+
+							#paisaje {display: none;}	 
+
+						   .navegador {/*width: 980px;*/
+									   border: 3px solid yellow;
+									   /*position: relative;*/
+									   /*margin:auto;*/
+									   }
+
+									.sub {width: 280px;
+										  margin:10px auto; 
+										  border: 1px solid green;
+										  font-size:3.5rem;
+										  color: gray;
+										  text-align: center;}
+
+						    .contacto {border: 2px solid blue;
+									 margin-top:10px;
+									 text-align: center;
+									}
+
+						
+
+
+
+
+						}
 
 
 
@@ -78,23 +223,22 @@ html {height:100%;
 
 
 
-/* - - - - 667 x 375 IPHONE678 landscape- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-@media only screen and (width: 667px) and (height:375px) 
-	{
-	  html {height:375px;
-      		background-color: rgb(0,0,255);
-	 		}
-	}
 
 
 
-/* - - - - 375 x 667 IPHONE678 portrait - - - - - */
-@media only screen and (width: 375px) and  (height: 667px) 
-	{
-	  html {height:667px;
-      		background-color: rgb(0,0,255);
-	 		}
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -148,7 +292,7 @@ html {height:100%;
 	 		}
 
 		.encabezado {border: 2px solid black;
-	  			   font-size: 2rem;
+	  			   font-size: 2.5rem;
 	  			   text-align: center;
 					}
 
@@ -178,3 +322,117 @@ html {height:100%;
 
 
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* - - - - 568 x 320 IPHONE5 SE portrait - - - - - - - - - -*/
+@media only screen and (width: 320px) and (height:568px) 
+	{
+	  
+	  html {height:568px;
+      		background-color: rgb(255,0,0);
+	 		}
+
+		.encabezado {border: 2px solid black;
+	  			   font-size: 2.5rem;
+	  			   text-align: center;
+					}
+
+		#paisaje {display: none;}	 
+
+	   .navegador {/*width: 980px;*/
+				   border: 3px solid yellow;
+				   /*position: relative;*/
+				   /*margin:auto;*/
+				   }
+
+				.sub {width: 280px;
+					  margin:5px auto; 
+					  border: 1px solid green;
+					  font-size:3rem;
+					  color: gray;
+					  text-align: center;}
+
+	    .contacto {border: 2px solid blue;
+				 margin-top:10px;
+				 text-align: center;
+				}
+
+
+
+
+	}
+
+
+
+/*- - - - 320 x 568 IPHONE5 SE landscape  - - - - - */
+@media only screen and (width: 568px) and  (height: 320px) 
+	{
+	
+
+
+
+	  html {height:568px;
+      		background-color: rgb(255,0,0);
+	 		}
+
+		.encabezado {border: 2px solid black;
+	  			   font-size: 1.5rem;
+	  			   text-align: center;
+					}
+
+ 	   .encabezado, #paisaje {border: 2px solid black;
+	  			   font-size: 1.6rem;
+	  			   text-align: center;
+					}
+
+	   .navegador {/*width: 980px;*/
+				   border: 3px solid yellow;
+				   /*position: relative;*/
+				   /*margin:auto;*/
+				   }
+
+				.sub {width: 280px;
+					  margin:5px auto; 
+					  border: 1px solid green;
+					  font-size:2rem;
+					  color: gray;
+					  text-align: center;}
+
+	    .contacto {border: 2px solid blue;
+				 margin-top:10px;
+				 text-align: center;
+				}
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
